@@ -26,6 +26,21 @@
 
 
 
+#Write an equation that uses multiplication,
+#division, an exponent, addition, and 
+#subtraction that is equal to 100.25.
+x = (((((5 * 4) / 2) ** 2) + .50) - .25)
+print (x)
+
+a = 4 * (6 + 5)
+44
+print (a)
+b = 4 * 6 + 5
+29
+print (b)
+c = 4 + 6 * 5
+34
+print(c)
 
 
 
@@ -37,4 +52,8 @@
 
 
 
-  
+
+
+
+
+
