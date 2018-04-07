@@ -101,7 +101,8 @@ d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
 print(d['k1'][2]['k2'][1]['tough'][2][0])
 
 #Can you sort a dictionary? Why or why not?
-#No. You can't really sort values that
+#No. Dictionaries are mappings not a sequence
+#You can't really sort values that
 #are strings, there's really no inherent value to sort.
 
 
@@ -143,6 +144,8 @@ l_two = [1,2,{'k1':4}]
 # True or False?
 print(l_one[2][0] >= l_two[2]['k1'])
 False
+
+
 
 
 
