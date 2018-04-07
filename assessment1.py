@@ -85,19 +85,29 @@ list4 = [5,3,4,6,1]
 list4.sort()
 print(list4)
 
+#DICTIONARIES
+#Using keys and indexing, grab the 'hello' 
+#from the following dictionaries:
+d = {'simple_key':'hello'}
+print(d['simple_key'])
+
+d = {'k1':{'k2':'hello'}}
+print(d['k1']['k2'])
+
+d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+print(d['k1'][0]['nest_key'][1][0])
+
+d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+print(d['k1'][2]['k2'][1]['tough'][2][0])
+
+#Can you sort a dictionary? Why or why not?
+#No. You can't really sort values that
+#are strings, there's really no inherent value to sort.
 
 
-
-
-
-
-
-
-
-
-
-
-
+#TUPLES
+#What is the major difference between tuples and lists?
+#tuples have keys and values and are immutable.
 
 
 
