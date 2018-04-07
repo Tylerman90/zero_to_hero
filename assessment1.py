@@ -109,6 +109,47 @@ print(d['k1'][2]['k2'][1]['tough'][2][0])
 #What is the major difference between tuples and lists?
 #tuples have keys and values and are immutable.
 
+#How do you create a tuple?
+#t = (name, tyler, etc)
+
+#SETS
+#What is unique about a set?
+#a set contains an unordered collection of distinct values
+#and are immutable.
+
+#Use a set to find the unique values of the list below:
+list5 = [1,2,2,33,4,4,11,22,3,3,2]
+print(list5)
+list5 = set([1,2,2,33,4,4,11,22,3,3,2])
+print(list5)
+
+#What will be the resulting Boolean of the following pieces of code (answer fist then check by typing it in!)
+print(2 > 3)
+False
+print(3 <= 2)
+False
+print(3 == 2.0)
+False
+print(3.0 == 3)
+True
+print(4**0.5 != 2)
+False
+
+#Final Question: What is the boolean output of the cell block below?
+# two nested lists
+l_one = [1,2,[3,4]]
+l_two = [1,2,{'k1':4}]
+
+# True or False?
+print(l_one[2][0] >= l_two[2]['k1'])
+False
+
+
+
+
+
+
+
 
 
 
