@@ -4,6 +4,7 @@ for word in words:
 	if word[0] == 's':
 		print(word)
 
+
 print(list(range(0,11,2)))
 #or
 for num in range(0,11,2):
@@ -35,6 +36,7 @@ for num in range(1,101):
 		print(num)
 
 st = 'Create a list of the first letters of every word in this string'
+print([word[0] for word in st.split()])
 
 
 
