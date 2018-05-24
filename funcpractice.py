@@ -19,23 +19,28 @@ def animal_crackers(words):
 		return True
 	else:
 		return False
-
 print(animal_crackers('Crazy Kangaroo'))
+
 
 def makes_twenty(n1,n2):
 	if n1 + n2 == 20 or n1 == 20 or n2 == 20:
 		return True
 	else:
 		return False
-
 print(makes_twenty(2,3))
 
 
 def old_macdonald(name):
 	new = name.split()
 	return (new[0][0].capitalize() + new[0][1:3] + new[0][3].capitalize() + new[0][4:])
-
 print(old_macdonald('macdonald'))
+
+
+def master_yoda(text):
+	yoda = " ".join(reversed(text.split()))
+	return yoda
+
+print(master_yoda('I am great'))
 
 
 
