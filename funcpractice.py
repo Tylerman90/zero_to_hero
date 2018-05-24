@@ -29,3 +29,40 @@ def makes_twenty(n1,n2):
 		return False
 
 print(makes_twenty(2,3))
+
+
+def old_macdonald(name):
+	new = name.split()
+	return (new[0][0].capitalize() + new[0][1:3] + new[0][3].capitalize() + new[0][4:])
+
+print(old_macdonald('macdonald'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
