@@ -39,12 +39,14 @@ print(old_macdonald('macdonald'))
 def master_yoda(text):
 	yoda = " ".join(reversed(text.split()))
 	return yoda
-
 print(master_yoda('I am great'))
 
 
-
-
+def almost_there(n):
+	if n>=90 and n<=110 or n>=190 and n<=210:
+		return True
+	else:
+		return False
 
 
 
