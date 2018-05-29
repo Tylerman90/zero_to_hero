@@ -47,20 +47,26 @@ def almost_there(n):
 		return False
 
 def has_33(nums):
-	pass
-	for i in nums:
-		if nums[i] == nums[i + 1]:
-			if i == 3:
-				return True
-			else:
-				return False
+	for i in range(0,len(nums) - 1):
+		if nums[i] == 3 and nums[i + 1] == 3:
+			return True
+	return False
+
+print(has_33([1, 3, 3]))
+
 
 
 def paper_doll(text):
-	for i in range(len(text)):
-		return i * 3
+	result = ' '
+
+	for char in text:
+		result += char * 3
+	return result
 
 print(paper_doll('Hello'))
+
+def blackjack(a,b,c):
+	pass
 
 
 
