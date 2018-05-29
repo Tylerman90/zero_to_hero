@@ -14,11 +14,9 @@ def lesser_of_two_evens(a,b):
 
 
 def animal_crackers(words):
-	two_words = words.split()
-	if two_words[0][0].lower() == two_words[1][0].lower():
-		return True
-	else:
-		return False
+	two_words = words.lower().split()
+	return two_words[0][0] == two_words[1][0]
+		
 print(animal_crackers('Crazy Kangaroo'))
 
 
@@ -28,7 +26,7 @@ def makes_twenty(n1,n2):
 	else:
 		return False
 print(makes_twenty(2,3))
-
+ 
 
 def old_macdonald(name):
 	new = name.split()
@@ -48,6 +46,21 @@ def almost_there(n):
 	else:
 		return False
 
+def has_33(nums):
+	pass
+	for i in nums:
+		if nums[i] == nums[i + 1]:
+			if i == 3:
+				return True
+			else:
+				return False
+
+
+def paper_doll(text):
+	for i in range(len(text)):
+		return i * 3
+
+print(paper_doll('Hello'))
 
 
 
