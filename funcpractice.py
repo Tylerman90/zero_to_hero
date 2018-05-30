@@ -66,8 +66,37 @@ def paper_doll(text):
 print(paper_doll('Hello'))
 
 def blackjack(a,b,c):
-	pass
+	total = a + b + c
+	if total <= 21:
+		return total
+	elif total > 21 and (a == 11 or b == 11 or c == 11):
+		return total - 10
+	else:
+		print('BUST')
 
+print(blackjack(9,9,11))
+
+
+def summer_69(arr):
+
+	total = 0
+	add = True
+	for i in arr:
+		while add:
+			if i != 6:
+				total  += i
+				break
+			else:
+				add = False
+		while not add:
+			if i != 9:
+				break
+			else:
+				add = True
+				break
+	return total
+
+print(summer_69([2, 1, 6, 9, 11]))
 
 
 
