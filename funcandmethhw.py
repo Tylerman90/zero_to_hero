@@ -41,12 +41,12 @@ print(unique_list([1,1,1,1,2,2,3,3,3,3,4,5]))
 
 
 def multiply(numbers):
-	sum = 1
+	total = 1
 	for i in numbers:
-		newsum == sum * i
+		newsum == total * i
 	return newsum
 
-print multiply([1,2,3,-4])
+print(multiply([1,2,3,-4]))
 
 
 
