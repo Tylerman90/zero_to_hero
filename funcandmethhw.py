@@ -27,3 +27,30 @@ def up_low(s):
 
 up_low('Hello People')
  
+
+
+def unique_list(lst):
+	my_list = []
+	for item in lst:
+		if item not in my_list:
+			my_list.append(item)
+	return my_list
+
+print(unique_list([1,1,1,1,2,2,3,3,3,3,4,5]))
+
+
+
+def multiply(numbers):
+	sum = 1
+	for i in numbers:
+		newsum == sum * i
+	return newsum
+
+print multiply([1,2,3,-4])
+
+
+
+
+
+
+
